@@ -1,0 +1,169 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body */
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Header */
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .app-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .app-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 250px;
+    margin-right: 1rem;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .icon-btn:hover {
+    color: #007bff;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    display: flex;
+    flex: 1;
+    margin-top: 60px; /* Space for header */
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #20232a;
+    color: #fff;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+  }
+  
+  .sidebar nav ul li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar nav ul li a:hover,
+  .sidebar nav ul li a.active {
+    background-color: #3a3f47;
+    color: #fff;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    flex: 1 1 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  /* Footer */
+  .app-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffffff;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #0056b3;
+  }
