@@ -100,3 +100,61 @@ Here’s how the project folder is organized:
   │            └── profile-icon.svg      # Profile icon
   ├── data/
         └── mock-data.json # Mock data for groups, users, etc. (if applicable)
+
+        
+---
+
+## 🛠️ Installation
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+- Ensure you have a modern browser installed.
+
+### Run the Application
+1. Clone the repository or download the files.
+2. Open the `index.html` file in your browser to launch the app.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here’s how you can help:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request to the `main` branch.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+- Special thanks to the CRAI FUD Hackathon team for the opportunity to build this project.
+- Inspired by the needs of Federal University Dutse students.
+
+---
+
+## 📞 Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Team Lead**: Halifa Rabiu Ibrahim  
+- **Email**: rabiuhalifaibrahim@gmail.com 
+- **GitHub**: https://github.com/Rhibrahim15
+
+---
+
+## 🏆 Future Enhancements
+
+We plan to add the following features in future updates:
+
+- **AI-Powered Matching**: Recommend study groups based on students' profiles.
+- **Gamification**: Introduce badges or points for participation.
+- **Integration with University Systems**: Sync with FUD’s course management system.
+- **Mobile App**: Develop a native mobile app for iOS and Android.
