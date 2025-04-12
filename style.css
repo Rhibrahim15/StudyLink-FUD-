@@ -1,0 +1,90 @@
+/* Body Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFB;
+  }
+  
+  /* Splash Screen Container */
+  .splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(270deg, #006400, #1E3A8A, #006400);
+    background-size: 600% 600%;
+    animation: bgFlow 10s ease infinite;
+    overflow: hidden;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    width: 100px;
+    height: auto;
+    animation: fadeScale 1.2s ease-in-out, float 3s infinite ease-in-out;
+  }
+  
+  /* Slogan with Typewriter Effect */
+  .slogan {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white;
+    width: 0;
+    animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+  }
+  
+  /* Spinner Loader */
+  .loader {
+    margin-top: 30px;
+    border: 5px solid #ffffff40;
+    border-top: 5px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes fadeScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  @keyframes bgFlow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+  
