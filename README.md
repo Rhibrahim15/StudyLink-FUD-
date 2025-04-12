@@ -1,6 +1,6 @@
 # 📚 StudyLink FUD
 
-![StudyLink FUD Logo](StudyLink-FUD-/studylink1.png)  
+![StudyLink FUD Logo](https://github.com/Rhibrahim15/StudyLink-FUD-/studylink1.png)  
 
 
 ## 🌟 About the Project
